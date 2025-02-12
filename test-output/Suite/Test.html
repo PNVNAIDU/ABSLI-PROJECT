@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 21 23:14:55 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>405 seconds (405822 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.absli.testcases.HealthDetailsTest.VerifyMedicalAilmentsQuestion5ParalysisWeb()'><b>VerifyMedicalAilmentsQuestion5ParalysisWeb</b><br>Test class: com.absli.testcases.HealthDetailsTest<br>Test method: TEST-90 ||Verify Ailment 6 i.e. Paralysis and Stroke and dependent sub ailment / questionnaireTEST-90 ||Verify user able to select  Dizziness epilepsy TEST-90 ||Verify user able to see 10 Queastions under Epilepsy and Seizure DisorderTEST-90 ||Verify first question as "State the nature of the condition you are suffering? and its options"TEST-90 ||Verify default selected chip for first question (State the nature of the condition you are suffering)TEST-90 ||Verify Provide Details field when "Others" chip is selectedTEST-90 ||Verify character limitation of "Provide Details" text field when others is selectedTEST-90 ||Verify user should not be able to proceed without filling "Provide details" text field  when others is selectedTEST-90 ||Verify the question  “Do you have medical report related to this?”TEST-90 ||Verify second question as "When was the condition diagnosed or when did you first experience a seizure?" TEST-90 ||Verify date field can't be set as future date. When second question "When was the condition diagnosed or when did you first experience a seizure? " TEST-90 ||Verify error message When second question as "When was the condition diagnosed or when did you first experience a seizure?  date field left blank and proceed.TEST-90 ||Verify third question as "How often do you typically experience a seizure?"TEST-90 ||Verify selected Condition of How often do you typically experience a seizure?TEST-90 ||Verify user should not be able to proceed without filling "Provide details" text field  when others is selectedTEST-90 ||Verify Fourth question as "Is the frequency of seizure becoming"TEST-90 ||Verify user Error message in case not selected “ Please selected an options”TEST-90 ||Verify fifth question as "When was your last seizure?"TEST-90 ||Verify date field can't be set as future date. When fifth question "When was your last seizure? " TEST-90 ||Verify error message When fifth question as "When was your last seizure?"  date field left blank and proceed.TEST-90 ||Verify Sixth question "Provide medication details for this condition" and its dependent mandatory questions when TEST-90 ||Verify error messages when fields for dependant questions of Sixth question left and blank proceed. TEST-90 ||Verify Seventh question "Have you ever had any tests or investigations carried out?" and "No" button by default selected .TEST-90 ||Verify Seventh question and its dependent mandatory questions when "YES" radio button selected by user.TEST-90 ||Verify error messages when fields for dependant questions of Seventh question left and blank proceed. TEST-90 ||Verify Eighth question "Have you ever been admitted to hospital or had out-patient follow-up for this condition and "No" radio button by default selected .TEST-90 ||Verify Eighth question and its dependent mandatory questions when "YES" radio button selected by user.TEST-90 ||Verify error messages when fields for dependant questions of Seventh question left and blank proceed. TEST-90 ||Verify Nineth question as "Has any further treatment or investigation been discussed or contemplated?" TEST-90 ||Verify Nineth question as "Has any further treatment or investigation been discussed or contemplated? " click on YES TEST-90 ||Verify error message When Nineth question as "Has any further treatment or investigation been discussed or contemplated?"  click on yes then field left blank and proceed.TEST-90 ||Verify tenth question as "Additional Information" <br>Parameters: in073662, str, 12345678901234, 9319671844, ATUPP1747N, 19.0, 6.0, 1982, KKBK0000631, 5613058615, Direct Bill, On Premium Due Date, Salary, Test, test, 15, 7, 1995.0, Male, Grandfather, 100, Are you sure you would like to delete?, Residential Address, 413501.0, abced, abcd, abcd, 413501.0, English, 8600599675, 12345.0, nikhilg6969@gmail.com, Single, satish, Maya, ramesh, Graduate, Service, rakesh, Business, Partnership, TEST, 500000.0, Medical History, 60, Yes, 6, Yes, For fun, Yes, Beer, 20, Daily, Yes, Cigarette, 10, 5, Yes, Hobby, 2, Self, Yes, Yes, Test, Test, 20, 09, 2010, Test, Yes, Yes, Yes, Yes, Yes, 20, Yes, Yes, Dizziness epilepsy,Fainting Spells,Paralysis,Stroke,Mental Disorder,Psychiatric disorder,Any other neurological disorder, Absence seizures (petit mal),Atonic seizures (drop attacks),Myoclonic seizures,Simple partial seizures,Tonic clonic seizures (grand mal),Complex partial seizures (psychomotor),Others, Test, Test, 20052010, 22052010</td>
+<td></td>
+<td>401</td>
+<td>com.absli.testcases.HealthDetailsTest@c9d0d6</td></tr>
+</table><p>
+</body>
+</html>

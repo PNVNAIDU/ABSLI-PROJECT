@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.absli.testcases.PersonalInfoTest">
+        <methods>
+          <include name="VerifyEnterAllFieldONExistingPageWeb"/>
+          <include name="UserAbleNevigateToExistingPageWeb"/>
+          <include name="UserCanAddedFivePolicyONExistingPageWeb"/>
+          <include name="UserSelectStateOfProposerWeb" invocation-numbers="0"/>
+          <include name="UserSelectProposeOfInsuranceWeb"/>
+          <include name="endReport"/>
+          <include name="preSetup"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="UserCanAddedFivePolicyOnRefusedPolicyWeb"/>
+        </methods>
+      </class> <!-- com.absli.testcases.PersonalInfoTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

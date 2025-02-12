@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.absli.Listner.CustomListner"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.absli.testcases.HealthDetailsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ValidationHealthOfFamilyBrotherLivingWeb" invocation-numbers="0"/>
+          <include name="endReport"/>
+          <include name="preSetup"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.absli.testcases.HealthDetailsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

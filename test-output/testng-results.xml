@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="45" total="46" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T07:01:39Z" name="Suite" finished-at="2022-10-11T07:02:56Z" duration-ms="76222">
+    <groups>
+      <group name="web">
+        <method signature="HealthDetailsTest.ValidationHealthOfFamilyBrotherLivingWeb(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.absli.testcases.HealthDetailsTest@79207381]" name="ValidationHealthOfFamilyBrotherLivingWeb" class="com.absli.testcases.HealthDetailsTest"/>
+      </group> <!-- web -->
+    </groups>
+    <test started-at="2022-10-11T07:01:39Z" name="Test1" finished-at="2022-10-11T07:02:56Z" duration-ms="76222">
+      <class name="com.absli.testcases.HealthDetailsTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.absli.testcases.HealthDetailsTest@79207381]" started-at="2022-10-11T12:31:39Z" name="setExtent" finished-at="2022-10-11T12:31:40Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.absli.testcases.HealthDetailsTest@79207381]" started-at="2022-10-11T12:31:40Z" name="preSetup" finished-at="2022-10-11T12:32:10Z" duration-ms="30321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.absli.testcases.HealthDetailsTest@79207381]" started-at="2022-10-11T12:32:10Z" name="setUp" finished-at="2022-10-11T12:32:10Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidationHealthOfFamilyBrotherLivingWeb(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.absli.testcases.HealthDetailsTest@79207381]" started-at="2022-10-11T12:32:10Z" name="ValidationHealthOfFamilyBrotherLivingWeb" description="User Should be able to if Brother is living, Click on living option then provide the details of    1. Age -Tex 2. State of health - Drop down select Drop down select any of one as per user health condition  *Ok/Good   * Cancer     *Diabetes Mellitus  *Hyper tension  *Neurological  *Heart Problems  * Others  fields should be reflect in DB.User should be  the user can edit the details of an added entry of brother.User should be the user can remove an added entry of a brotherUser should alowe to add upto 5 brothers Max.User should not allowes to add the more then 5 brothers User should be able to as state of health, user is given free text field to enter the sameUser should get inline error message &quot;xxxx&quot;TEST=88||Validate if user select the Brother==Age,State of Health,Living/Demise should asked this type of question details should be enteredTEST=88||Validate if brother/sister is Yes, then below details are captured==this details should be captured 
+Living/DemiseAgeState of healthTEST=88||Validate  that user can add upto 5 brothers and 5 sisters each at MaxTEST=88||Validate that the user can remove an added entry of a brother or sister&quot;
+TEST=88||Validate  that the user can edit the details of an added entry of brother and sister&quot;
+TEST=88||Validate that if brother/sister is added, the age and state of health is captured" data-provider="HealthDetailDataProviderNew" finished-at="2022-10-11T12:32:55Z" duration-ms="44720" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in073662]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[str]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9319671844]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ATUPP1747N]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1982.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[KKBK0000631]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[5613058615]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Direct Bill]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[On Premium Due Date]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Salary]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1995.0]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Grandfather]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Are you sure you would like to delete?]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Residential Address]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[413501.0]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[abced]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[413501.0]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[8.600599675E9]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[nikhilg6969@gmail.com]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[satish]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Maya]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[ramesh]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[Graduate]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Service]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[rakesh]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[Partnership]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[500000.0]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[Family Medical]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="70">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="71">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="72">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="73">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="74">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="75">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="76">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="77">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="78">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="79">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="80">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="81">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="82">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="83">
+              <value>
+                <![CDATA[Living]]>
+              </value>
+            </param>
+            <param index="84">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="85">
+              <value>
+                <![CDATA[Diabetes Mellitus]]>
+              </value>
+            </param>
+            <param index="86">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="87">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="88">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="89">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'NEXT')])[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-8KATJP3L', ip: '192.168.214.173', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0af197ba255b17387b445239b4a97ff
+*** Element info: {Using=xpath, value=(//span[contains(text(),'NEXT')])[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'NEXT')])[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-8KATJP3L', ip: '192.168.214.173', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0af197ba255b17387b445239b4a97ff
+*** Element info: {Using=xpath, value=(//span[contains(text(),'NEXT')])[1]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.absli.pageObjects.CustomerProfile.customerProfileNEXTButtonClick(CustomerProfile.java:304)
+	at Utils.TestFactory.gotoHealthDetailweb(TestFactory.java:334)
+	at com.absli.testcases.HealthDetailsTest.ValidationHealthOfFamilyBrotherLivingWeb(HealthDetailsTest.java:3398)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationHealthOfFamilyBrotherLivingWeb -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.absli.testcases.HealthDetailsTest@79207381]" started-at="2022-10-11T12:32:55Z" name="endReport" finished-at="2022-10-11T12:32:56Z" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.absli.testcases.HealthDetailsTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
